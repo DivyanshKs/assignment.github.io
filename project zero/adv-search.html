@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <style>
+        	body{
+        		padding: 0px;
+        		margin: 0px;
+        	}
+            #head {
+                color: red
+            }
+            * {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.box {
+  position: relative;
+  float: left;
+  width: 70%;  
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.box2 {
+  position: relative;
+  float: right; 
+  width: 30%; 
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+        </style>
+    </head>
+
+    <body>
+        <div id="navbar" style="width: 100%; height: 48px; margin: 0px; margin: 0px; background-color: #f2f2f2;">
+            <a href="index.html" style="padding: 10px; padding-right: 15px; float: right; color: #4c8bf5; text-decoration: none;">Google Search</a>
+            <img src="small.png" style="float: left; margin-left: 15px; margin-bottom: 10px; margin-top: 10px;">
+        </div>
+        <hr style="margin-left: 20px; margin-right: 20px; margin-top: 18px; color: #f2f2f2;">
+        <h1 id="head" style="margin-left: 18px; margin-top: 0px;"><b>Advanced Search</b></h1>
+        <hr style="margin-left: 20px; margin-right: 20px; margin-top: 18px; margin-bottom: 60px; color: #f2f2f2;">
+
+        <div class="container">
+          <div class="box"> 
+            <span style="margin-left: 30px; margin-bottom: 50px;">Find pages with...</span>
+            <form action="https://google.com/search/" method="GET" name="f" style="margin-top: 20px;">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">all these words:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" value="" autofocus="autofocus" name="as_q">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">this exact word or phrase:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" value="" name="as_epq">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">any of these words:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" value="" name="as_oq">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">none of these words:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" value="" name="as_eq">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <input type="submit" value="Advance Search" style=" background-color: #4c8bf5;border-radius: 3px; border: none; color: white; padding: 10px 25px; text-decoration: none; margin: 4px 2px; cursor: pointer;">
+                </div>
+            </form>
+          </div>
+          <div class="box2" style="size: 10px;">
+            <div style="margin-left: 30px;">To do this in the search box.</div>
+            <div style="margin-top: 40px;">Type the important words: tri-colour rat terrier</div>
+            <div style="margin-top: 30px;">Put exact wordsin qoutes: "rat terrier"</div>
+            <div style="margin-top: 30px;">Type OR between all the words you want miniature OR standard</div>
+            <div style="margin-top: 30px;">Put a minus sign just before words that you don't want: -rodent,-"Jack Russell"</div>
+          </div>
+        </div>
+    </body>
