@@ -1,0 +1,160 @@
+body {
+ margin: 00px;
+ padding: 00px;
+}
+.x {
+  position: relative;
+  padding: 09px;
+  margin: 00px;
+  height: 50px;
+  width: 100%;
+  background-image: url("https://static-exp1.licdn.com/sc/h/cn3fr66ht7m34az3utaneh6ld");
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.site-icon {
+  position: absolute;
+  left: 3%;
+  top: 24%;
+  width: 55px;
+  height: 55px;
+  border: grey;
+  border-width: 1px;
+  padding-left: 12px;
+  right: 12%;
+  transform: translateY(40%);
+  background-image: url("images/logo.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.pen-icon {
+  position: absolute;
+  margin: 00px;
+  width: 30px;
+  height: 30px;
+  margin-left: 00px;
+  top: 105%;
+  left: 72%;
+  transform: translateY(20%);
+  transform: translateX(60%); 
+  background-image: url("images/pen.png");
+  background-repeat: no-repeat;
+  background-size: contain; 
+}
+
+.share-icon {
+  position: absolute;
+  margin: 00px;
+  width: 30px;
+  height: 30px;
+  left: 80%;
+  top: 105%;
+  transform: translateY(35%);
+  transform: translateX(60%); 
+  background-image: url("images/share.png");
+  background-repeat: no-repeat;
+  background-size: contain; 
+}
+
+span {
+    position: absolute;
+    top: 18%;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-left: 12px;
+    border: 0px;
+    font-size: 80%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.summary-info {
+    padding-top: 65px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-left: 12px;
+    border: 0px;
+    font-size: 13px;
+    vertical-align: baseline;
+    background: transparent;
+
+}
+
+.t-16 {
+    font-weight: bold;
+    font-family: 'Hind Siliguri', sans-serif;
+    color: black;
+    padding-left: 12px;
+    padding-top: 09px;
+    margin: 00px;
+    font-size: 15px;
+    vertical-align: baseline;
+    line-height: 1.5;
+}
+
+.update {
+    font-weight: bold;
+    font-family: 'Hind Siliguri', sans-serif;
+    color: black;
+    padding-left: 12px;
+    padding-top: 04px;
+    padding-bottom: 04px;
+    margin: 00px;
+    font-size: 12px;
+    vertical-align: baseline;
+    line-height: 1.5;
+
+}
+
+.site-icon2 {
+  width: 40px;
+  height: 40px;
+  background-image: url("images/logo.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.box {
+  position: absolute;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  top: 45%;
+  left: 15%;
+  width: 100px;
+  height: 100px;
+}
+
+.globe-icon {
+  position: absolute;
+  width:15px;
+  height: 15px;
+  top: 38%;
+  left: 34%;
+  background-image: url("images/globe.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.down-arrow {
+  margin: 00px;
+  padding: 00px;
+  position: absolute;
+  top: 44%;
+  left: 87%; 
+  width: 50px;
+  height: 40px;
+  background-image: url("images/down.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.boxed {
+  width: 100%;
+  height: 200px;
+}
+
+img {
+  width: 100%;
+  height: 80%;
+}
